@@ -276,7 +276,7 @@
                 margin: 12%;
                 padding-top: 16%;
                 border: 1px solid $white;
-                box-shadow: 10px 10px 0 #6e9691;
+                box-shadow: 10px 10px 0 $pantone;
                 transition: .5s;
               }
               .ch {
@@ -285,7 +285,7 @@
                 }
               }
               &:hover {
-              box-shadow: 5px 5px 0 #6e9691;
+              box-shadow: 5px 5px 0 $pantone;
               }
             }
             &:hover {

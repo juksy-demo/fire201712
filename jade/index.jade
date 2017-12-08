@@ -1,26 +1,33 @@
 doctype html
 html(lang='zh-TW')
-	head
-		meta(charset='UTF-8')
-		meta(name='viewport', content='width=device-width, initial-scale=1')
-		title 特企套餐
-		meta(name='keywords', content='選單')
-		meta(name='description', content='選單')
-	body
-		h1 JUKSY 特企套餐
-		ul
-			li
-				a(href='#')
-					h2 （Ａ）全方位觀點特企（敬請期待）
-		ul
-			li
-				a(href='index_b.html')
-					h2 （Ｂ）視覺衝擊特企（敬請期待）
-		ul
-			li
-				a(href='index_c.html')
-					h2 （Ｃ）文章集錦主題特企
-		ul
-			li
-				a(href='index_d.html')
-					h2 （Ｄ）活動招募特企
+  head
+    include ./base/head.jade
+  body
+    #fb-root
+    h1.hide 改燥 It's change time！
+    include ./nav/n_02.jade
+    include ./header/h_03.jade
+    include ./list/l_09.jade
+    include ./video/v_02.jade
+    include ./list/l_08.jade
+    include ./list/l_07.jade
+    include ./footer/f_02.jade
+    include ./btnfixed/b_01.jade
+
+    // JS start
+
+    // JS cdn
+    include ./base/cdnjs.jade
+
+    // JS DEV FILE
+    include ./base/devjs.jade
+
+    // JS MIN FILE
+    //- include ./base/minjs.jade
+
+    // JS third party
+    script(type='text/javascript')
+      include ./js/foot.js
+    // JS third party end
+
+    // JS end

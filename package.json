@@ -1,21 +1,21 @@
 {
-  "name": "juksy-events",
+  "name": "fire201712",
   "version": "1.0.0",
-  "description": "https://juksy-demo.github.io/events/",
+  "description": "https://juksy-demo.github.io/fire201712/",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juksy-demo/events.git"
+    "url": "git+https://github.com/juksy-demo/fire201712.git"
   },
-  "author": "Anny <anny@juksy.com>",
+  "author": "Tony <tony.chen@juksy.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juksy-demo/events/issues"
+    "url": "https://github.com/juksy-demo/fire201712/issues"
   },
-  "homepage": "https://github.com/juksy-demo/events#readme",
+  "homepage": "https://github.com/juksy-demo/fire201712#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",

@@ -29,7 +29,7 @@ ul.fixedBtn_01 {
             height: 60px;
             overflow: hidden;
             border-radius: 30px;
-            background-color: #6ea09b;
+            background-color: $pantone;
             cursor: pointer;
             @include transition;
             &:hover {

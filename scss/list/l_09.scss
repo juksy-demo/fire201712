@@ -8,7 +8,7 @@
       line-height: 1.5em;
       letter-spacing: 2px;
       padding: 50px $m_gap 0 $m_gap;
-      color: $black_r;
+      color: $white;
       @include screen(tb) {
         padding: 50px $tb_gap 0 $tb_gap;
       }
@@ -20,7 +20,7 @@
       &:after {
         content: "";
         display: block;
-        border-bottom: 1px solid $black_r;
+        border-bottom: 1px solid $white;
       }
     }
     .article {
@@ -78,7 +78,7 @@
           overflow: hidden;
         }
         ul.dateWrap {
-          background-color: #6e9691;
+          background-color: $white;
           padding: 15px;
           position: relative;
           width: 227px;
@@ -122,7 +122,7 @@
           }
         }
         ul.main {
-          background-color: #6e9691;
+          background-color: $white;
           padding: 20px 15px 50px 15px;
           height: 96px;
           position: relative;
@@ -144,7 +144,7 @@
             &.now {
               opacity: 1;
               z-index: 0;
-              color: #fff;
+              color: $black;
               @include animation(custom_fadeinup 1s cubic-bezier(0.165, 0.84, 0.44, 1));
             }
             .atitleWrap {
@@ -210,7 +210,7 @@
       		margin: 0 auto;
       	}
         .nav {
-          background-color: #000000;
+          background-color: $pantone;
           font-size: 24px;
           font-weight: bold;
           margin: -30px auto 0 auto;

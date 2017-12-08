@@ -9,14 +9,14 @@
   .videoWrap {
     .titleWrap {
     	@include screen(pcLarge) {
-    		background-color: $white;
+    		background-color: $black;
     		padding-bottom: 30px; 
     	}
       .title {
         font-size: 28px;
         line-height: 1.5em;
         letter-spacing: 2px;
-        color: $black_r;
+        color: $white;
         padding: 50px $m_gap 0 $m_gap;
         @include screen(tb) {
           padding: 50px $tb_gap 0 $tb_gap;
@@ -29,7 +29,7 @@
         &:after {
           content: "";
           display: block;
-          border-bottom: 1px solid $black_r;
+          border-bottom: 1px solid $white;
         }
       }
     }

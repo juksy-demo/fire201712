@@ -9,7 +9,7 @@
       line-height: 1.5em;
       letter-spacing: 2px;
       padding: 50px $m_gap 0 $m_gap;
-      color: $black_r;
+      color: $white;
       @include screen(tb) {
       	padding: 50px $tb_gap 0 $tb_gap;
       }
@@ -21,7 +21,7 @@
       &:after {
         content: "";
         display: block;
-        border-bottom: 1px solid $black_r;
+        border-bottom: 1px solid $white;
       }
     }
     ul.article {

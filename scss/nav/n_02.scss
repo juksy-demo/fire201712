@@ -11,7 +11,7 @@
       font-size: 14px;
       text-align: center;
       letter-spacing: 1px;
-      color: $grey;
+      color: $pantone;
       font-weight: bold;
       @include transition;
       @include transform(translateY(20px));
@@ -36,7 +36,7 @@
               width: 1px;
               height: 100%;
               left: 50%;
-              background-color: $grey;
+              background-color: $pantone;
             }
             /* Tooltip circle */
             &:after {
@@ -46,7 +46,7 @@
               height: 5px;
               margin: 0 auto;
               border-radius: 50%;
-              background-color: $grey;
+              background-color: $pantone;
             }
             /* Tooltip */
             .tooltiptext {
@@ -113,7 +113,7 @@
         position: absolute;
         left: 23.5px;
         top: 38.5px;
-        background-color: #000000;
+        background-color: $pantone;
         @include transition;
       }
     }
@@ -128,11 +128,11 @@
 	          a.tooltip {
 	            /* Tooltip line */
 	            &:before {
-	              background-color: rgba(255, 213, 34, 0.5);
+	              background-color: $pantone;
 	            }
 	            /* Tooltip circle */
 	            &:after {
-	              background-color: rgba(255, 213, 34, 1);
+	              background-color: $pantone;
 	            }
 	          }
 	        }
@@ -226,7 +226,7 @@ a.nav_02_btn {
   }
   .line {
     width: 100%;
-    border-bottom: 3px solid $grey;
+    border-bottom: 3px solid $pantone;
     margin-bottom: 10px;
     @include transition;
   }

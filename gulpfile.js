@@ -12,7 +12,7 @@ gulp.task('browser-sync', ['rebuild'], function() {
       files: "**",
       server: {
         baseDir: './',
-        index:'index_te.html'
+        index:'index.html'
       },
 
       port: 8080,

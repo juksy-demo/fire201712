@@ -221,7 +221,7 @@ img {
         font-size: 14px;
         text-align: center;
         letter-spacing: 1px;
-        color: #333333;
+        color: #ff5900;
         font-weight: bold;
         transition: all 0.5s ease 0s;
         transform: translateY(20px); }
@@ -251,7 +251,7 @@ img {
               width: 1px;
               height: 100%;
               left: 50%;
-              background-color: #333333; }
+              background-color: #ff5900; }
             .nav_02_line .listWrap ul.list li a.tooltip:after {
               content: "";
               display: block;
@@ -259,7 +259,7 @@ img {
               height: 5px;
               margin: 0 auto;
               border-radius: 50%;
-              background-color: #333333; }
+              background-color: #ff5900; }
             .nav_02_line .listWrap ul.list li a.tooltip .tooltiptext {
               visibility: hidden;
               width: 170px;
@@ -307,7 +307,7 @@ img {
           position: absolute;
           left: 23.5px;
           top: 38.5px;
-          background-color: #000000;
+          background-color: #ff5900;
           transition: all 0.5s ease 0s; }
       .nav_02_line.open .number {
         opacity: 0; }
@@ -317,9 +317,9 @@ img {
           /* Tooltip line */
           /* Tooltip circle */ }
           .nav_02_line.open .listWrap ul.list li a.tooltip:before {
-            background-color: rgba(255, 213, 34, 0.5); }
+            background-color: #ff5900; }
           .nav_02_line.open .listWrap ul.list li a.tooltip:after {
-            background-color: #ffd522; } }
+            background-color: #ff5900; } }
 
 .nav_02 {
   background-color: rgba(0, 0, 0, 0.8);
@@ -388,7 +388,7 @@ a.nav_02_btn {
       left: 50px; } }
   a.nav_02_btn .line {
     width: 100%;
-    border-bottom: 3px solid #333333;
+    border-bottom: 3px solid #ff5900;
     margin-bottom: 10px;
     transition: all 0.5s ease 0s; }
   a.nav_02_btn:hover .middle {
@@ -639,18 +639,18 @@ a.nav_02_btn {
                 margin: 12%;
                 padding-top: 16%;
                 border: 1px solid #fff;
-                box-shadow: 10px 10px 0 #6e9691;
+                box-shadow: 10px 10px 0 #ff5900;
                 transition: .5s; } }
             @media screen and (min-width: 1024px) {
               .header_03 .headerWrap .detail .detailWrap .txtInner a.link .linkWrap .ch {
                 display: block; } }
             .header_03 .headerWrap .detail .detailWrap .txtInner a.link .linkWrap:hover {
-              box-shadow: 5px 5px 0 #6e9691; }
+              box-shadow: 5px 5px 0 #ff5900; }
           .header_03 .headerWrap .detail .detailWrap .txtInner a.link:hover .arrow {
             animation: arrow_move 1s linear infinite; }
 
 .list_07 {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #fff;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
   padding-top: 30px; }
@@ -659,7 +659,7 @@ a.nav_02_btn {
     line-height: 1.5em;
     letter-spacing: 2px;
     padding: 50px 20px 0 20px;
-    color: #000000; }
+    color: #fff; }
     @media screen and (min-width: 768px) {
       .list_07 .layoutWrap .title {
         padding: 50px 40px 0 40px; } }
@@ -671,7 +671,7 @@ a.nav_02_btn {
     .list_07 .layoutWrap .title:after {
       content: "";
       display: block;
-      border-bottom: 1px solid #000000; }
+      border-bottom: 1px solid #fff; }
   .list_07 .layoutWrap ul.article {
     margin-top: 30px; }
     @media screen and (min-width: 1024px) {
@@ -744,7 +744,7 @@ a.nav_02_btn {
             font-weight: bold; }
 
 .list_08 {
-  background-color: #ffffff;
+  background-color: #000000;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
   padding-top: 30px; }
   .list_08 .layoutWrap .title {
@@ -752,7 +752,7 @@ a.nav_02_btn {
     line-height: 1.5em;
     letter-spacing: 2px;
     padding: 50px 20px 0 20px;
-    color: #000000; }
+    color: #fff; }
     @media screen and (min-width: 768px) {
       .list_08 .layoutWrap .title {
         padding: 50px 40px 0 40px; } }
@@ -764,7 +764,7 @@ a.nav_02_btn {
     .list_08 .layoutWrap .title:after {
       content: "";
       display: block;
-      border-bottom: 1px solid #000000; }
+      border-bottom: 1px solid #fff; }
   .list_08 .layoutWrap ul.article {
     margin-top: 30px;
     padding: 0 20px;
@@ -921,7 +921,7 @@ a.nav_02_btn {
       display: block; }
 
 .list_09 {
-  background-color: #ffffff;
+  background-color: #000000;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
   padding-top: 30px; }
   .list_09 .layoutWrap .title {
@@ -929,7 +929,7 @@ a.nav_02_btn {
     line-height: 1.5em;
     letter-spacing: 2px;
     padding: 50px 20px 0 20px;
-    color: #000000; }
+    color: #fff; }
     @media screen and (min-width: 768px) {
       .list_09 .layoutWrap .title {
         padding: 50px 40px 0 40px; } }
@@ -941,7 +941,7 @@ a.nav_02_btn {
     .list_09 .layoutWrap .title:after {
       content: "";
       display: block;
-      border-bottom: 1px solid #000000; }
+      border-bottom: 1px solid #fff; }
   .list_09 .layoutWrap .article {
     margin-top: 30px;
     position: relative; }
@@ -997,7 +997,7 @@ a.nav_02_btn {
           margin: -63px auto 0 auto;
           overflow: hidden; } }
       .list_09 .layoutWrap .article .txt ul.dateWrap {
-        background-color: #6e9691;
+        background-color: #fff;
         padding: 15px;
         position: relative;
         width: 227px;
@@ -1036,7 +1036,7 @@ a.nav_02_btn {
             text-transform: uppercase;
             color: #000; }
       .list_09 .layoutWrap .article .txt ul.main {
-        background-color: #6e9691;
+        background-color: #fff;
         padding: 20px 15px 50px 15px;
         height: 96px;
         position: relative; }
@@ -1059,7 +1059,7 @@ a.nav_02_btn {
           .list_09 .layoutWrap .article .txt ul.main li.now {
             opacity: 1;
             z-index: 0;
-            color: #fff;
+            color: #000000;
             animation: custom_fadeinup 1s cubic-bezier(0.165, 0.84, 0.44, 1); }
           .list_09 .layoutWrap .article .txt ul.main li .atitleWrap a.atitle {
             display: block;
@@ -1111,7 +1111,7 @@ a.nav_02_btn {
         width: 820px;
         margin: 0 auto; } }
     .list_09 .layoutWrap .article .navWrap .nav {
-      background-color: #000000;
+      background-color: #ff5900;
       font-size: 24px;
       font-weight: bold;
       margin: -30px auto 0 auto;
@@ -1147,7 +1147,7 @@ a.nav_02_btn {
 
 .video_02 {
   position: relative;
-  background-color: #ffffff;
+  background-color: #000000;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
   color: #fff; }
   @media screen and (min-width: 1280px) {
@@ -1155,13 +1155,13 @@ a.nav_02_btn {
       background-color: transparent; } }
   @media screen and (min-width: 1280px) {
     .video_02 .videoWrap .titleWrap {
-      background-color: #fff;
+      background-color: #000000;
       padding-bottom: 30px; } }
   .video_02 .videoWrap .titleWrap .title {
     font-size: 28px;
     line-height: 1.5em;
     letter-spacing: 2px;
-    color: #000000;
+    color: #fff;
     padding: 50px 20px 0 20px; }
     @media screen and (min-width: 768px) {
       .video_02 .videoWrap .titleWrap .title {
@@ -1174,7 +1174,7 @@ a.nav_02_btn {
     .video_02 .videoWrap .titleWrap .title:after {
       content: "";
       display: block;
-      border-bottom: 1px solid #000000; }
+      border-bottom: 1px solid #fff; }
   .video_02 .videoWrap .parallax {
     display: none; }
     @media screen and (min-width: 1024px) {
@@ -1319,7 +1319,7 @@ a.nav_02_btn {
               box-sizing: border-box;
               transition: all 0.5s ease 0s; }
             .footer_02 .footerWrap .socialWrap .followWrap ul.social li a:hover svg .st0 {
-              fill: #ffffff; }
+              fill: #000000; }
             .footer_02 .footerWrap .socialWrap .followWrap ul.social li a:hover .borderAnimate {
               border: 2px solid transparent;
               background-color: #fff; }
@@ -1365,7 +1365,7 @@ ul.fixedBtn_01 {
       height: 60px;
       overflow: hidden;
       border-radius: 30px;
-      background-color: #6ea09b;
+      background-color: #ff5900;
       cursor: pointer;
       transition: all 0.5s ease 0s; }
       ul.fixedBtn_01 li .material_btn:hover {
@@ -1605,7 +1605,7 @@ _:-ms-input-placeholder, :root .fixedBtnCover_01 .coverWrap .main .mainWrap .ite
   display: none; }
 
 body {
-  background-color: #ffffff; }
+  background-color: #000000; }
 
 @media screen and (min-width: 1024px) {
   .nav_02_line ul.list li:nth-child(1) a.tooltip .tooltiptext {
