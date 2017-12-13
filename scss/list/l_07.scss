@@ -88,7 +88,7 @@
             max-height: $line-height*3;
             overflow: hidden;
             text-align: center;
-            color: $black_r;
+            color: $white;            
             @include screen(pcSmall) {
             	padding: 0 160px;
               color: $white;

@@ -735,7 +735,7 @@ a.nav_02_btn {
           max-height: 5.4em;
           overflow: hidden;
           text-align: center;
-          color: #000000; }
+          color: #fff; }
           @media screen and (min-width: 1024px) {
             .list_07 .layoutWrap ul.article li .txtWrap a.txt {
               padding: 0 160px;
